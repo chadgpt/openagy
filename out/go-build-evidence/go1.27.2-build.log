@@ -1,0 +1,10 @@
+Building Go cmd/dist using /workspace/agy/go126. (go1.26.2 linux/amd64)
+Building Go toolchain1 using /workspace/agy/go126.
+Building Go bootstrap cmd/go (go_bootstrap) using Go toolchain1.
+Building Go toolchain2 using go_bootstrap and Go toolchain1.
+Building Go toolchain3 using go_bootstrap and Go toolchain2.
+Building packages and commands for linux/amd64.
+---
+Installed Go for linux/amd64 in /tmp/go-build/go
+Installed commands in /tmp/go-build/go/bin
+*** You need to add /tmp/go-build/go/bin to your PATH.
