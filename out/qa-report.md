@@ -291,7 +291,11 @@ $ strings /workspace/agy/install/antigravity | grep -c "MODEL_GOOGLE_GEMINI_"
 | 路径 | 大小 | 内容 |
 |---|---|---|
 | `/workspace/agy/out/qa-report.md` | 本文件 | 3 问题综合回答 |
-| `/workspace/agy/out/inspect-agy.md` | 25 KB | REA 静态分析全报告（`go version -m` 等价物、Go build tag、section 表）|
+| `/workspace/agy/out/supplement-deep-dive.md` | 10 KB | 后续并行抽的细节：44 个 model 完整列表 / 35 个 host URL / 30+ tier 枚举 / 50+ AGY_ env var / 48 个 google3 包 / 35+ gRPC service |
+| `/workspace/agy/out/models-gemini.txt` | - | 44 个 unique MODEL_GOOGLE_GEMINI_* 完整列表 |
+| `/workspace/agy/out/urls-google.txt` | - | 35 个 Google host 完整列表 |
+| `/workspace/agy/out/grpc-paths.txt` | - | gRPC service 路径（gibberish 也混进来，2984 行）|
+| `/workspace/agy/out/inspect-agy.md` | 25 KB | REA 静态分析全报告 |
 | `/workspace/agy/out/restore-symbols.md` | 8.6 KB | rea-go-seeds 工具流程 + .lrodata 补丁说明 |
 | `/workspace/agy/out/ghidra-analyze.md` | 34 KB | Ghidra 安装 + rea analyze timeout 复盘 + fallback 路径 |
 | `/workspace/agy/out/seeds/seeds.txt` | 18 MB | 155,184 个 Ghidra seed（address+name）|
@@ -299,3 +303,13 @@ $ strings /workspace/agy/install/antigravity | grep -c "MODEL_GOOGLE_GEMINI_"
 | `/workspace/agy/out/fallback-functions.txt` | 10.8 KB | 115 个 auth/eligibility 关键函数地址 |
 | `/workspace/agy/install/antigravity` | 214 MB | 目标 binary（已 extracted）|
 | `/workspace/agy/{jdk,go,rea-agents,rea-go-seeds,ghidra,install}/` | 2.5 GB+ | 完整逆向工具链 |
+
+## 关键修正（基于 supplement-deep-dive.md）
+
+| 之前报告 | 实测修正 |
+|---|---|
+| "4 套服务器环境" | **5 套**（prod / daily / preprod / autopush / corp 内网）|
+| "30 个未发布模型代号" | **44 个 unique**（含 10+ 内部代号 + Claude 4.5/4 + OpenAI gpt-oss-120b）|
+| "11 个隐藏命令行开关" | **50+ AGY_ 环境变量**（env 比 flag 多，可能文章说的"隐藏开关"就是这些）|
+| "30s/60s timeout" | 仍【推测】—— strings 是 `%s` 占位符，需 Ghidra 反编译控制流确认 |
+| "MODEL_GOOGLE_GEMINI 1650 个" | 实际 hard-coded 字符串 44 个，**1650 可能是所有可能枚举值**（含空槽位）|
