@@ -1,0 +1,115 @@
+# Fallback Functions List — antigravity (204.3 MiB ELF64, stripped)
+# Generated via strings + seeds.txt (Go pclntab) analysis on 2026-10-12 18:30 UTC
+# Seeds source: rea-go-seeds (VallierDev/rea-go-seeds, recovered 155,184 function names)
+# Filter pattern: waitForEligibility|isEligible|fetchEligible|keyring|signing
+# Result: 50 functions matching the task contract pattern
+
+# === Core auth/eligibility flow (store package) ===
+0x899cb00	function	google3/third_party/jetski/cli/store/store.(*Manager).initAuth
+0x899cc00	function	google3/third_party/jetski/cli/store/store.(*Manager).commitAuth
+0x899cd40	function	google3/third_party/jetski/cli/store/store.(*Manager).waitForEligibility
+0x899cf80	function	google3/third_party/jetski/cli/store/store.(*Manager).StartOAuthProcess
+0x899d3a0	function	google3/third_party/jetski/cli/store/store.(*Manager).StartGCPAuthProcess
+0x899d9c0	function	google3/third_party/jetski/cli/store/store.(*Manager).TrySilentAuth
+0x899da00	function	google3/third_party/jetski/cli/store/store.(*Manager).CancelOAuthProcess
+0x899db00	function	google3/third_party/jetski/cli/store/store.(*Manager).ResetAuthState
+0x899dbc0	function	google3/third_party/jetski/cli/store/store.(*Manager).SubmitOAuthAuthorizationCode
+0x899e060	function	google3/third_party/jetski/cli/store/store.(*Manager).ValidateAndOnboardAccount
+0x899e0e0	function	google3/third_party/jetski/cli/store/store.(*Manager).IsAuthMethodSupported
+0x89cba20	function	google3/third_party/jetski/cli/store/store.(*Manager).FetchLicenses
+0x89cbac0	function	google3/third_party/jetski/cli/store/store.(*Manager).SelfAssignLicense
+0x89cbba0	function	google3/third_party/jetski/cli/store/store.(*Manager).SelectLicense
+0x8a161c0	function	google3/third_party/jetski/cli/store/store.(*Manager).initAuth.func1
+0x8a16580	function	google3/third_party/jetski/cli/store/store.(*Manager).StartOAuthProcess.deferwrap1
+0x8a165c0	function	google3/third_party/jetski/cli/store/store.(*Manager).StartGCPAuthProcess.deferwrap1
+
+# === Auth state (store.Auth) ===
+0x89fa100	function	google3/third_party/jetski/cli/store/store.(*Auth).IsLoggedIn
+
+# === Backend layer (backend.ServerBackend) ===
+0x86bce60	function	google3/third_party/jetski/cli/backend/backend.(*ServerBackend).FetchLicenses
+0x86bd160	function	google3/third_party/jetski/cli/backend/backend.(*ServerBackend).SelectLicense
+0x86bd580	function	google3/third_party/jetski/cli/backend/backend.(*ServerBackend).SelfAssignLicense
+0x86d8d40	function	google3/third_party/jetski/cli/backend/backend.(*ServerBackend).StartOAuthProcess
+0x86d8de0	function	google3/third_party/jetski/cli/backend/backend.(*ServerBackend).StartGCPAuthProcess
+0x86d9a80	function	google3/third_party/jetski/cli/backend/backend.(*ServerBackend).TrySilentAuth
+0x86d9b00	function	google3/third_party/jetski/cli/backend/backend.(*ServerBackend).ValidateAndOnboardAccount
+0x86dfb80	function	google3/third_party/jetski/cli/backend/backend.(*ServerBackend).ValidateAndOnboardAccount.func1
+
+# === Keyring auth (auth.keyringAuth) ===
+0x86aa0c0	function	google3/third_party/jetski/cli/backend/auth/auth.(*keyringAuth).TryAuth
+0x86aa360	function	google3/third_party/jetski/cli/backend/auth/auth.(*keyringAuth).StartInteractive
+0x86aa380	function	google3/third_party/jetski/cli/backend/auth/auth.(*keyringAuth).Logout
+0x86aa480	function	google3/third_party/jetski/cli/backend/auth/auth.(*keyringAuth).Name
+0x86adb20	function	google3/third_party/jetski/cli/backend/auth/auth.(*keyringAuth).TryAuth.func1
+0x86ae4e0	function	google3/third_party/jetski/cli/backend/auth/auth.(*keyringAuth).TryAuth.func1.1
+
+# === Code assist client (license management) ===
+0x798b480	function	google3/third_party/jetski/language_server/code_assist_client/codeassistclient.(*CodeAssistClient).FetchLicensesFromAICode
+0x79989a0	function	google3/third_party/jetski/language_server/code_assist_client/codeassistclient.(*CodeAssistClient).FetchLicenses
+0x7998b20	function	google3/third_party/jetski/language_server/code_assist_client/codeassistclient.(*CodeAssistClient).SelfAssignLicense
+0x799b580	function	google3/third_party/jetski/language_server/code_assist_client/codeassistclient.keyringRecentlyUnavailable
+0x79c8fe0	function	google3/third_party/jetski/language_server/code_assist_client/codeassistclient.(*CodeAssistClient).FetchLicensesFromAICode.deferwrap1
+0x79c9f00	function	google3/third_party/jetski/language_server/code_assist_client/codeassistclient.(*CodeAssistClient).SelfAssignLicense.deferwrap1
+
+# === Print mode wait functions ===
+0x8c67d40	function	google3/third_party/jetski/cli/printmode/printmode.waitForAuth
+0x8c688c0	function	google3/third_party/jetski/cli/printmode/printmode.waitForEligibility
+0x8c6ec00	function	google3/third_party/jetski/cli/printmode/printmode.waitForAuth.deferwrap1
+0x8c6ec40	function	google3/third_party/jetski/cli/printmode/printmode.waitForAuth.func1
+0x8c6ee60	function	google3/third_party/jetski/cli/printmode/printmode.waitForAuth.func1.deferwrap1
+0x8c6eea0	function	google3/third_party/jetski/cli/printmode/printmode.waitForEligibility.deferwrap2
+0x8c6eee0	function	google3/third_party/jetski/cli/printmode/printmode.waitForEligibility.deferwrap1
+
+# === Native swarm model eligibility ===
+0x7d85700	function	google3/third_party/jetski/cortex/core/contrib/variants/native_swarm/nativeswarm.eligibleModels
+0x7d8a100	function	google3/third_party/jetski/cortex/core/contrib/variants/native_swarm/nativeswarm.eligibleModels.func1
+
+# === Other JWT signing (warning: signingMethodNone - insecure!) ===
+0x6a5bbc0	function	google3/third_party/golang/github_com/golang_jwt/jwt/v/v4/jwt.(*signingMethodNone).Alg
+0x6a5bbe0	function	google3/third_party/golang/github_com/golang_jwt/jwt/v/v4/jwt.(*signingMethodNone).Verify
+0x6a5bcc0	function	google3/third_party/golang/github_com/golang_jwt/jwt/v/v4/jwt.(*signingMethodNone).Sign
+
+# === Keyring implementation (zalando/go_keyring) ===
+0x6d1bf40	function	google3/third_party/golang/github_com/zalando/go_keyring/v/v0/secret_service/ss.(*SecretService).OpenSession
+0x6d1c200	function	google3/third_party/golang/github_com/zalando/go_keyring/v/v0/secret_service/ss.(*SecretService).CheckCollectionPath
+0x6d1c380	function	google3/third_party/golang/github_com/zalando/go_keyring/v/v0/secret_service/ss.(*SecretService).GetLoginCollection
+0x6d1c480	function	google3/third_party/golang/github_com/zalando/go_keyring/v/v0/secret_service/ss.(*SecretService).Unlock
+0x6d1c8e0	function	google3/third_party/golang/github_com/zalando/go_keyring/v/v0/secret_service/ss.(*SecretService).Close
+0x6d1c960	function	google3/third_party/golang/github_com/zalando/go_keyring/v/v0/secret_service/ss.(*SecretService).CreateItem
+0x6d1cd40	function	google3/third_party/golang/github_com/zalando/go_keyring/v/v0/secret_service/ss.(*SecretService).handlePrompt
+0x6d1d4e0	function	google3/third_party/golang/github_com/zalando/go_keyring/v/v0/secret_service/ss.(*SecretService).SearchItems
+0x6d1d660	function	google3/third_party/golang/github_com/zalando/go_keyring/v/v0/secret_service/ss.(*SecretService).GetSecret
+0x6d1d8a0	function	google3/third_party/golang/github_com/zalando/go_keyring/v/v0/secret_service/ss.(*SecretService).Delete
+0x6d1da60	function	google3/third_party/golang/github_com/zalando/go_keyring/v/v0/secret_service/ss.(*SecretService).handlePrompt.deferwrap1
+0x6d1db00	function	google3/third_party/golang/github_com/zalando/go_keyring/v/v0/secret_service/ss.(*SecretService).handlePrompt.func1
+0x6d1e980	function	google3/third_party/golang/github_com/zalando/go_keyring/v/v0/keyring.(*fallbackServiceProvider).Delete
+0x6d1e9a0	function	google3/third_party/golang/github_com/zalando/go_keyring/v/v0/keyring.(*fallbackServiceProvider).DeleteAll
+0x6d1e9c0	function	google3/third_party/golang/github_com/zalando/go_keyring/v/v0/keyring.(*fallbackServiceProvider).Get
+0x6d1ea00	function	google3/third_party/golang/github_com/zalando/go_keyring/v/v0/keyring.(*fallbackServiceProvider).Set
+0x6d1ea20	function	google3/third_party/golang/github_com/zalando/go_keyring/v/v0/keyring.(*secretServiceProvider).Delete
+0x6d1eaa0	function	google3/third_party/golang/github_com/zalando/go_keyring/v/v0/keyring.(*secretServiceProvider).DeleteAll
+0x6d1eb00	function	google3/third_party/golang/github_com/zalando/go_keyring/v/v0/keyring.(*secretServiceProvider).Get
+0x6d1eb80	function	google3/third_party/golang/github_com/zalando/go_keyring/v/v0/keyring.(*secretServiceProvider).Set
+
+# === Protobuf messages (relevant auth/elig) ===
+0x6595760	function	google3/google/internal/cloud/code/v1internal/v1internal_go_proto.(*IneligibleTier).Reset
+0x6595840	function	google3/google/internal/cloud/code/v1internal/v1internal_go_proto.(*IneligibleTier).String
+0x6595880	function	google3/google/internal/cloud/code/v1internal/v1internal_go_proto.(*IneligibleTier).ProtoMessage
+0x65958a0	function	google3/google/internal/cloud/code/v1internal/v1internal_go_proto.(*IneligibleTier).ProtoReflect
+0x6595940	function	google3/google/internal/cloud/code/v1internal/v1internal_go_proto.(*IneligibleTier).Descriptor
+0x65959c0	function	google3/google/internal/cloud/code/v1internal/v1internal_go_proto.(*IneligibleTier).GetReasonCode
+0x65959e0	function	google3/google/internal/cloud/code/v1internal/v1internal_go_proto.(*IneligibleTier).GetReasonMessage
+0x6595a00	function	google3/google/internal/cloud/code/v1internal/v1internal_go_proto.(*IneligibleTier).GetTierId
+0x6595a20	function	google3/google/internal/cloud/code/v1internal/v1internal_go_proto.(*IneligibleTier).GetTierName
+0x6595a40	function	google3/google/internal/cloud/code/v1internal/v1internal_go_proto.(*IneligibleTier).GetValidationErrorMessage
+0x6595a60	function	google3/google/internal/cloud/code/v1internal/v1internal_go_proto.(*IneligibleTier).GetValidationUrlLinkText
+0x6595a80	function	google3/google/internal/cloud/code/v1internal/v1internal_go_proto.(*IneligibleTier).GetValidationUrl
+0x6595aa0	function	google3/google/internal/cloud/code/v1internal/v1internal_go_proto.(*IneligibleTier).GetValidationLearnMoreLinkText
+0x6595ac0	function	google3/google/internal/cloud/code/v1internal/v1internal_go_proto.(*IneligibleTier).GetValidationLearnMoreUrl
+0x6596380	function	google3/google/internal/cloud/code/v1internal/v1internal_go_proto.(*LoadCodeAssistResponse).Reset
+0x6596440	function	google3/google/internal/cloud/code/v1internal/v1internal_go_proto.(*LoadCodeAssistResponse).String
+0x6596480	function	google3/google/internal/cloud/code/v1internal/v1internal_go_proto.(*LoadCodeAssistResponse).ProtoMessage
+0x65964a0	function	google3/google/internal/cloud/code/v1internal/v1internal_go_proto.(*LoadCodeAssistResponse).ProtoReflect
+0x6596540	function	google3/google/internal/cloud/code/v1internal/v1internal_go_proto.(*LoadCodeAssistResponse).Descriptor
+0x65965c0	function	google3/google/internal/cloud/code/v1internal/v1internal_go_proto.(*LoadCodeAssistResponse).GetCurrentTier

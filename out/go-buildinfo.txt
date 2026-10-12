@@ -1,0 +1,5 @@
+
+String dump of section '.go.buildinfo':
+  [     1]   Go buildinf:^H^B
+  [    20]  Lgo1.28-20260921-RC02 cl/985595000 +644cd61a4a X:fieldtrack,boringcrypto,simd
+

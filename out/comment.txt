@@ -1,0 +1,7 @@
+
+String dump of section '.comment':
+  [     0]  Linker: LLD google3-trunk
+  [    1a]  Ubuntu clang version 14.0.6
+  [    36]  google3 clang version 9999.0.0 (fc44a4fcd3c54be927c15ddd9211aca1501633e7)
+  [    80]  google3 clang version 9999.0.0 (018a9e4a74ba5d383351bda907a8b116bc5d8c47)
+

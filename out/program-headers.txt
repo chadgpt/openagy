@@ -1,0 +1,45 @@
+
+Elf file type is DYN (Position-Independent Executable file)
+Entry point 0x5dc5000
+There are 17 program headers, starting at offset 64
+
+Program Headers:
+  Type           Offset   VirtAddr           PhysAddr           FileSiz  MemSiz   Flg Align
+  PHDR           0x000040 0x0000000000000040 0x0000000000000040 0x0003b8 0x0003b8 R   0x8
+  LOAD           0x000000 0x0000000000000000 0x0000000000000000 0x936be70 0x936be70 R E 0x200000
+  GNU_STACK      0x000000 0x0000000000000000 0x0000000000000000 0x000000 0x000000 RW  0
+  LOAD           0x936be80 0x000000000956be80 0x000000000956be80 0x15a41d0 0x15a5180 RW  0x200000
+  TLS            0x936be80 0x000000000956be80 0x000000000956be80 0x000090 0x000460 R   0x20
+  GNU_RELRO      0x936be80 0x000000000956be80 0x000000000956be80 0x15a41d0 0x15a5180 R   0x1
+  DYNAMIC        0x936c2f8 0x000000000956c2f8 0x000000000956c2f8 0x000230 0x000230 RW  0x8
+  LOAD           0xa910050 0x000000000ad10050 0x000000000ad10050 0x0b041c 0x0b041c R   0x200000
+  GNU_EH_FRAME   0xa99fc9c 0x000000000ad9fc9c 0x000000000ad9fc9c 0x01d594 0x01d594 R   0x4
+  LOAD           0xa9c0480 0x000000000afc0480 0x000000000afc0480 0x0fe6b8 0x167a60 RW  0x200000
+  LOAD           0xab27ee0 0x000000000b327ee0 0x000000000b327ee0 0x20725b8 0x42bdc78 RW  0x200000
+  LOAD           0xcbe5b60 0x000000000f7e5b60 0x000000000f7e5b60 0x004168 0x056300 RW  0x200000
+  LOAD           0xcc3be60 0x000000000fa3be60 0x000000000fa3be60 0x00d598 0x00d598 R   0x200000
+  LOAD           0xcc4b000 0x000000000fa4a000 0x000000000fa4a000 0x0050d0 0x0050d0 RW  0x1000
+  INTERP         0xcc50070 0x000000000fa4f070 0x000000000fa4f070 0x00001c 0x00001c R   0x1
+      [Requesting program interpreter: /lib64/ld-linux-x86-64.so.2]
+  NOTE           0xcc50090 0x000000000fa4f090 0x000000000fa4f090 0x000020 0x000020 R   0x4
+  NOTE           0xcc500b0 0x000000000fa4f0b0 0x000000000fa4f0b0 0x000020 0x000020 R   0x4
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     
+   01     .gnu.version .gnu.version_r .gnu.hash .dynstr .rela.dyn .rela.plt .lrodata flags_help_cold .rodata .text.hot google_malloc .text .text.split .text.unlikely .init .fini .text.startup google_init_cold malloc_hook .plt 
+   02     
+   03     .tdata .init_array .fini_array .preinit_array .dynamic .got .got.plt .data.rel.ro .relro_padding 
+   04     .tdata .tbss 
+   05     .tdata .init_array .fini_array .preinit_array .dynamic .got .got.plt .data.rel.ro .relro_padding 
+   06     .dynamic 
+   07     .eh_frame .eh_frame_hdr .gcc_except_table 
+   08     .eh_frame_hdr 
+   09     .data google_malloc_data google_malloc_bss .bss 
+   10     .go.buildinfo .go.module .noptrdata __rseq_cs __rseq_cs_ptr_array pb_defaults filewrapper_toc .noptrbss 
+   11     .ldata .lbss 
+   12     protodesc_cold 
+   13     .dynsym .interp .note.ABI-tag .note.gnu.build-id 
+   14     .interp 
+   15     .note.ABI-tag 
+   16     .note.gnu.build-id 

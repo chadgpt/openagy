@@ -1,0 +1,39 @@
+# Toolchain runtime (large binaries)
+go/bin/
+go/pkg/
+go/api/
+go/misc/
+go/doc/
+go/src/
+go/test/
+go/lib/
+go/CONTRIBUTING.md
+go/LICENSE
+go/PATENTS
+go/README.md
+go/SECURITY.md
+go/VERSION
+go/codereview.cfg
+go/go.env
+jdk/bin/
+jdk/lib/
+jdk/include/
+jdk/jmods/
+jdk/conf/
+jdk/legal/
+jdk/release
+jdk/CONTRIBUTING.md
+jdk/LICENSE
+jdk/README.md
+# Downloaded artifacts
+install/
+ghidra/
+*.tar.gz
+*.zip
+# Extracts
+go_extract/
+dl2/
+parts/
+# Logs / scratch
+*.log
+*.err

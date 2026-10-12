@@ -1,0 +1,64 @@
+There are 55 section headers, starting at offset 0xcc49728:
+
+Section Headers:
+  [Nr] Name              Type            Address          Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            0000000000000000 000000 000000 00      0   0  0
+  [ 1] .gnu.version      VERSYM          0000000000005460 005460 0006b4 02   A 51   0  2
+  [ 2] .gnu.version_r    VERNEED         0000000000005b14 005b14 0001b0 00   A  4   7  4
+  [ 3] .gnu.hash         GNU_HASH        0000000000005cc8 005cc8 000ef4 00   A 51   0  8
+  [ 4] .dynstr           STRTAB          0000000000006bbc 006bbc 003225 00   A  0   0  1
+  [ 5] .rela.dyn         RELA            0000000000009de8 009de8 1479120 18   A 51   0  8
+  [ 6] .rela.plt         RELA            0000000001482f08 1482f08 0017e8 18  AI 51  28  8
+  [ 7] .lrodata          PROGBITS        00000000014846f0 14846f0 3d14610 00 AMSl  0   0 16
+  [ 8] flags_help_cold   PROGBITS        0000000005198d00 5198d00 0053cf 00   A  0   0  1
+  [ 9] .rodata           PROGBITS        000000000519e100 519e100 c205db 00 AMSo  0   0 64
+  [10] .text.hot         PROGBITS        0000000005dbe6db 5dbe6db 000000 00 AXo  0   0  1
+  [11] google_malloc     PROGBITS        0000000005dbe6e0 5dbe6e0 0060b3 00 AXo  0   0 16
+  [12] .text             PROGBITS        0000000005dc5000 5dc5000 359def0 00  AX  0   0 4096
+  [13] .text.split       PROGBITS        0000000009362ef0 9362ef0 000000 00 AXo  0   0  1
+  [14] .text.unlikely    PROGBITS        0000000009362ef0 9362ef0 0037b9 00  AX  0   0 16
+  [15] .init             PROGBITS        00000000093666ac 93666ac 000017 00  AX  0   0  4
+  [16] .fini             PROGBITS        00000000093666c4 93666c4 000009 00  AX  0   0  4
+  [17] .text.startup     PROGBITS        00000000093666d0 93666d0 003a21 00  AX  0   0 16
+  [18] google_init_cold  PROGBITS        000000000936a100 936a100 000561 00  AX  0   0 16
+  [19] malloc_hook       PROGBITS        000000000936a670 936a670 0007fa 00  AX  0   0 16
+  [20] .plt              PROGBITS        000000000936ae70 936ae70 001000 00  AX  0   0 16
+  [21] .tdata            PROGBITS        000000000956be80 936be80 000090 00 WAT  0   0 32
+  [22] .tbss             NOBITS          000000000956bf10 936bf10 0003d0 00 WAT  0   0 16
+  [23] .init_array       INIT_ARRAY      000000000956bf10 936bf10 0003c8 08  WA  0   0  8
+  [24] .fini_array       FINI_ARRAY      000000000956c2d8 936c2d8 000010 08  WA  0   0  8
+  [25] .preinit_array    PREINIT_ARRAY   000000000956c2e8 936c2e8 000010 08  WA  0   0  8
+  [26] .dynamic          DYNAMIC         000000000956c2f8 936c2f8 000230 10  WA  4   0  8
+  [27] .got              PROGBITS        000000000956c528 936c528 000328 00  WA  0   0  8
+  [28] .got.plt          PROGBITS        000000000956c850 936c850 000810 00  WA  0   0  8
+  [29] .data.rel.ro      PROGBITS        000000000956d060 936d060 15a2ff0 00  WA  0   0 32
+  [30] .relro_padding    NOBITS          000000000ab10050 a910050 000fb0 00  WA  0   0  1
+  [31] .eh_frame         PROGBITS        000000000ad10050 a910050 08fc4c 00   A  0   0  8
+  [32] .eh_frame_hdr     PROGBITS        000000000ad9fc9c a99fc9c 01d594 00   A  0   0  4
+  [33] .gcc_except_table PROGBITS        000000000adbd230 a9bd230 00323c 00   A  0   0  4
+  [34] .data             PROGBITS        000000000afc0480 a9c0480 0fe670 00 WAo  0   0 64
+  [35] google_malloc_data PROGBITS        000000000b0beaf0 aabeaf0 000048 00  WA  0   0  8
+  [36] google_malloc_bss NOBITS          000000000b0beb40 aabeb38 005108 00  WA  0   0 16
+  [37] .bss              NOBITS          000000000b0c3c80 aabeb38 064260 00 WAo  0   0 64
+  [38] .go.buildinfo     PROGBITS        000000000b327ee0 ab27ee0 000070 00  WA  0   0 16
+  [39] .go.module        PROGBITS        000000000b327f60 ab27f60 000238 00  WA  0   0 32
+  [40] .noptrdata        PROGBITS        000000000b3281a0 ab281a0 2072241 00  WA  0   0 32
+  [41] __rseq_cs         PROGBITS        000000000d39a400 cb9a400 000060 00  WA  0   0 32
+  [42] __rseq_cs_ptr_array PROGBITS        000000000d39a460 cb9a460 000018 00  WA  0   0  8
+  [43] pb_defaults       PROGBITS        000000000d39a478 cb9a478 000018 00  WA  0   0  8
+  [44] filewrapper_toc   PROGBITS        000000000d39a490 cb9a490 000008 00  WA  0   0  8
+  [45] .noptrbss         NOBITS          000000000d39a4a0 cb9a498 224b6b8 00  WA  0   0 32
+  [46] .ldata            PROGBITS        000000000f7e5b60 cbe5b60 004168 00 WAl  0   0 16
+  [47] .lbss             NOBITS          000000000f7e9d00 cbe9cc8 052160 00 WAl  0   0 64
+  [48] protodesc_cold    PROGBITS        000000000fa3be60 cc3be60 00d598 00   A  0   0 16
+  [49] .comment          PROGBITS        0000000000000000 cc493f8 0000ca 01  MS  0   0  1
+  [50] .shstrtab         STRTAB          0000000000000000 cc494c2 000262 00      0   0  1
+  [51] .dynsym           DYNSYM          000000000fa4a000 cc4b000 005070 18   A  4   1  8
+  [52] .interp           PROGBITS        000000000fa4f070 cc50070 00001c 00   A  0   0  8
+  [53] .note.ABI-tag     NOTE            000000000fa4f090 cc50090 000020 00   A  0   0  4
+  [54] .note.gnu.build-id NOTE            000000000fa4f0b0 cc500b0 000020 00   A  0   0  4
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), l (large), p (processor specific)

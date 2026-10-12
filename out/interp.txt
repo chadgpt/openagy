@@ -1,0 +1,4 @@
+
+String dump of section '.interp':
+  [     0]  /lib64/ld-linux-x86-64.so.2
+

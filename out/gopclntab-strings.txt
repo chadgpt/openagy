@@ -1,0 +1,5 @@
+Whether or not to mark large data sections (e.g., .lrodata) as low importance
+Whether or not to mark large data sections (e.g., .lrodata) as low importance
+.lrodata
+.lrodata.gopclntab
+.lrodata
