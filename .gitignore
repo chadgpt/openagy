@@ -37,3 +37,5 @@ parts/
 # Logs / scratch
 *.log
 *.err
+go126/
+jdk/
