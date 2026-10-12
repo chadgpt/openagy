@@ -8,7 +8,7 @@
 
 _1 methods decompiled._
 
-| Addr | Function | Auth-relevant | Notes |
-|---|---|---|---|
-| `0x86dfbe0` | `google3/third_party/jetski/cli/backend/backend.newUpdateQueue.gowrap1` |  | |
+| Addr | Function | Decompile file |
+|---|---|---|
+| `0x86dfbe0` | `google3/third_party/jetski/cli/backend/backend.newUpdateQueue.gowrap1` | [`86dfbe0_gowrap1.c`](/workspace/agy/out/decompile/dec/86dfbe0_gowrap1.c) |
 

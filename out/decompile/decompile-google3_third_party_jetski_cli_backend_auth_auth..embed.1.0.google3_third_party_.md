@@ -8,10 +8,10 @@
 
 _2 methods decompiled._
 
-| Addr | Function | Auth-relevant | Notes |
-|---|---|---|---|
-| `0x86af960` | `google3/third_party/jetski/cli/backend/auth/auth..embed.1.0.google3/third_party/jetski/cli/backend/auth/auth.(*oauthMethod).Name` | **yes** | |
-| `0x86af980` | `google3/third_party/jetski/cli/backend/auth/auth..embed.1.0.google3/third_party/jetski/cli/backend/auth/auth.(*oauthMethod).TryAuth` | **yes** | |
+| Addr | Function | Decompile file |
+|---|---|---|
+| `0x86af960` | `google3/third_party/jetski/cli/backend/auth/auth..embed.1.0.google3/third_party/jetski/cli/backend/auth/auth.(*oauthMethod).Name` | [`86af960_Name.c`](/workspace/agy/out/decompile/dec/86af960_Name.c) |
+| `0x86af980` | `google3/third_party/jetski/cli/backend/auth/auth..embed.1.0.google3/third_party/jetski/cli/backend/auth/auth.(*oauthMethod).TryAuth` | [`86af980_TryAuth.c`](/workspace/agy/out/decompile/dec/86af980_TryAuth.c) |
 
 ## Pending / errors (2)
 

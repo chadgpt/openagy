@@ -8,7 +8,7 @@
 
 _1 methods decompiled._
 
-| Addr | Function | Auth-relevant | Notes |
-|---|---|---|---|
-| `0x8a11720` | `google3/third_party/jetski/cli/store/store.HintMask.Has` |  | |
+| Addr | Function | Decompile file |
+|---|---|---|
+| `0x8a11720` | `google3/third_party/jetski/cli/store/store.HintMask.Has` | [`8a11720_Has.c`](/workspace/agy/out/decompile/dec/8a11720_Has.c) |
 

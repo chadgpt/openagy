@@ -8,9 +8,9 @@
 
 _1 methods decompiled._
 
-| Addr | Function | Auth-relevant | Notes |
-|---|---|---|---|
-| `0x89bdd00` | `google3/third_party/jetski/cli/store/store.ExitState.DisplayKey` |  | |
+| Addr | Function | Decompile file |
+|---|---|---|
+| `0x89bdd00` | `google3/third_party/jetski/cli/store/store.ExitState.DisplayKey` | [`89bdd00_DisplayKey.c`](/workspace/agy/out/decompile/dec/89bdd00_DisplayKey.c) |
 
 ## Pending / errors (1)
 

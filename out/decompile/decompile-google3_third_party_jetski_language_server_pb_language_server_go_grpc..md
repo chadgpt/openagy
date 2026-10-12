@@ -8,9 +8,9 @@
 
 _1 methods decompiled._
 
-| Addr | Function | Auth-relevant | Notes |
-|---|---|---|---|
-| `0x7c94580` | `google3/third_party/jetski/language_server_pb/language_server_go_grpc.(*LanguageServerServiceHandlerHook)._LanguageServerService_SelectLicense_Handler` | **yes** | |
+| Addr | Function | Decompile file |
+|---|---|---|
+| `0x7c94580` | `google3/third_party/jetski/language_server_pb/language_server_go_grpc.(*LanguageServerServiceHandlerHook)._LanguageServerService_SelectLicense_Handler` | [`7c94580__LanguageServerService_SelectLicense_Handler.c`](/workspace/agy/out/decompile/dec/7c94580__LanguageServerService_SelectLicense_Handler.c) |
 
 ## Pending / errors (3)
 

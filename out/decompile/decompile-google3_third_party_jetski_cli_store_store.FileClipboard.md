@@ -8,9 +8,9 @@
 
 _1 methods decompiled._
 
-| Addr | Function | Auth-relevant | Notes |
-|---|---|---|---|
-| `0x89a8f00` | `google3/third_party/jetski/cli/store/store.FileClipboard.WriteAll` |  | |
+| Addr | Function | Decompile file |
+|---|---|---|
+| `0x89a8f00` | `google3/third_party/jetski/cli/store/store.FileClipboard.WriteAll` | [`89a8f00_WriteAll.c`](/workspace/agy/out/decompile/dec/89a8f00_WriteAll.c) |
 
 ## Pending / errors (1)
 

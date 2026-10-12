@@ -8,20 +8,20 @@
 
 _12 methods decompiled._
 
-| Addr | Function | Auth-relevant | Notes |
-|---|---|---|---|
-| `0x8a5bb20` | `google3/third_party/jetski/cli/commands/commands.CreateBugReport` |  | |
-| `0x8a5c260` | `google3/third_party/jetski/cli/commands/commands.copyBtwAnswer` |  | |
-| `0x8a5d920` | `google3/third_party/jetski/cli/commands/commands.splitModelAndPrompt` |  | |
-| `0x8a5e2e0` | `google3/third_party/jetski/cli/commands/commands.availableModelNames` |  | |
-| `0x8a60c40` | `google3/third_party/jetski/cli/commands/commands.runPluginInstallFromDir` |  | |
-| `0x8a61f40` | `google3/third_party/jetski/cli/commands/commands.runPluginToggle` |  | |
-| `0x8a63120` | `google3/third_party/jetski/cli/commands/commands.pathLikeHint` |  | |
-| `0x8a631c0` | `google3/third_party/jetski/cli/commands/commands.pluginDisplay` |  | |
-| `0x8a632e0` | `google3/third_party/jetski/cli/commands/commands.parsePluginSpec` |  | |
-| `0x8a633e0` | `google3/third_party/jetski/cli/commands/commands.NewRegistry` |  | |
-| `0x8a654a0` | `google3/third_party/jetski/cli/commands/commands.remoteControlOnMessage` |  | |
-| `0x8a658a0` | `google3/third_party/jetski/cli/commands/commands.remoteControlDeepLink` |  | |
+| Addr | Function | Decompile file |
+|---|---|---|
+| `0x8a5bb20` | `google3/third_party/jetski/cli/commands/commands.CreateBugReport` | [`8a5bb20_CreateBugReport.c`](/workspace/agy/out/decompile/dec/8a5bb20_CreateBugReport.c) |
+| `0x8a5c260` | `google3/third_party/jetski/cli/commands/commands.copyBtwAnswer` | [`8a5c260_copyBtwAnswer.c`](/workspace/agy/out/decompile/dec/8a5c260_copyBtwAnswer.c) |
+| `0x8a5d920` | `google3/third_party/jetski/cli/commands/commands.splitModelAndPrompt` | [`8a5d920_splitModelAndPrompt.c`](/workspace/agy/out/decompile/dec/8a5d920_splitModelAndPrompt.c) |
+| `0x8a5e2e0` | `google3/third_party/jetski/cli/commands/commands.availableModelNames` | [`8a5e2e0_availableModelNames.c`](/workspace/agy/out/decompile/dec/8a5e2e0_availableModelNames.c) |
+| `0x8a60c40` | `google3/third_party/jetski/cli/commands/commands.runPluginInstallFromDir` | [`8a60c40_runPluginInstallFromDir.c`](/workspace/agy/out/decompile/dec/8a60c40_runPluginInstallFromDir.c) |
+| `0x8a61f40` | `google3/third_party/jetski/cli/commands/commands.runPluginToggle` | [`8a61f40_runPluginToggle.c`](/workspace/agy/out/decompile/dec/8a61f40_runPluginToggle.c) |
+| `0x8a63120` | `google3/third_party/jetski/cli/commands/commands.pathLikeHint` | [`8a63120_pathLikeHint.c`](/workspace/agy/out/decompile/dec/8a63120_pathLikeHint.c) |
+| `0x8a631c0` | `google3/third_party/jetski/cli/commands/commands.pluginDisplay` | [`8a631c0_pluginDisplay.c`](/workspace/agy/out/decompile/dec/8a631c0_pluginDisplay.c) |
+| `0x8a632e0` | `google3/third_party/jetski/cli/commands/commands.parsePluginSpec` | [`8a632e0_parsePluginSpec.c`](/workspace/agy/out/decompile/dec/8a632e0_parsePluginSpec.c) |
+| `0x8a633e0` | `google3/third_party/jetski/cli/commands/commands.NewRegistry` | [`8a633e0_NewRegistry.c`](/workspace/agy/out/decompile/dec/8a633e0_NewRegistry.c) |
+| `0x8a654a0` | `google3/third_party/jetski/cli/commands/commands.remoteControlOnMessage` | [`8a654a0_remoteControlOnMessage.c`](/workspace/agy/out/decompile/dec/8a654a0_remoteControlOnMessage.c) |
+| `0x8a658a0` | `google3/third_party/jetski/cli/commands/commands.remoteControlDeepLink` | [`8a658a0_remoteControlDeepLink.c`](/workspace/agy/out/decompile/dec/8a658a0_remoteControlDeepLink.c) |
 
 ## Pending / errors (14)
 
