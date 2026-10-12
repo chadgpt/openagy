@@ -39,3 +39,6 @@ parts/
 *.err
 go126/
 jdk/
+out/decompile/proj/
+out/decompile/dec/
+out/decompile/logs/
