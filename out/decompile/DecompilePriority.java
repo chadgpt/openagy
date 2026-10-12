@@ -79,7 +79,7 @@ public class DecompilePriority extends GhidraScript {
         println("DecompilePriority: opening decompiler...");
         DecompInterface decomp = new DecompInterface();
         decomp.openProgram(currentProgram);
-        decomp.setOptionsMemoryMode(false); // 'normal' mode for better Go type recovery
+        // DecompInterface.setOptionsMemoryMode doesn't exist; default options are fine.
         println("DecompilePriority: decompiler ready.");
 
         FunctionManager funcMgr = currentProgram.getFunctionManager();

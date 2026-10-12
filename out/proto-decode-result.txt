@@ -1,0 +1,37 @@
+'google/protobuf/descriptor.proto' 出现 1 次
+============================================================
+PARSING cloudcode.proto FileDescriptorProto at 0x5835a2e
+============================================================
+
+File: google/internal/cloud/code/v1internal/cloudcode.proto
+Package: google.internal.cloud.code.v1internal
+Messages: 69
+Enums: 4
+
+=== Top-level Enums ===
+
+  enum RagStatus (5 values):
+    RAG_STATUS_UNSPECIFIED                             = 0
+    RAG_DISABLED                                       = 1
+    RAG_FOUND                                          = 2
+    RAG_NOT_FOUND                                      = 3
+    RAG_ERROR                                          = 4
+
+  enum CCRagStatus (4 values):
+    CC_RAG_STATUS_UNSPECIFIED                          = 0
+    CC_RAG_STATUS_REPOSITORIES_FOUND                   = 1
+    CC_RAG_STATUS_NOT_FOUND                            = 2
+    CC_RAG_STATUS_NO_REPOSITORIES                      = 3
+
+  enum FinishReason (4 values):
+    FINISH_REASON_UNSPECIFIED                          = 0
+    FINISH_REASON_STOP                                 = 1
+    FINISH_REASON_RECITATION                           = 2
+    FINISH_REASON_PROHIBITED_CONTENT                   = 3
+
+  enum SandboxType (3 values):
+    SANDBOX_TYPE_UNSPECIFIED                           = 0
+    WORKSTATION                                        = 1
+    CLOUD_RUN                                          = 2
+
+=== IneligibleTier (search all messages) ===
