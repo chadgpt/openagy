@@ -48,3 +48,6 @@ out/local-macos/proj/
 out/local-macos/mcp/
 out/local-macos/dec/
 out/local-macos/ghidra-snapshot.json
+
+# Reconstructed Go module (generated; see out/local-macos/README.go.md)
+out/local-macos/gosrc/
