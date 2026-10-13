@@ -42,3 +42,9 @@ jdk/
 out/decompile/proj/
 out/decompile/dec/
 out/decompile/logs/
+
+# Local macOS/arm64 RE run (see out/local-macos/env.sh)
+out/local-macos/proj/
+out/local-macos/mcp/
+out/local-macos/dec/
+out/local-macos/ghidra-snapshot.json

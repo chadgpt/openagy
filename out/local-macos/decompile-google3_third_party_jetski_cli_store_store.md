@@ -1,0 +1,144 @@
+# Decompile report — `google3/third_party/jetski/cli/store/store`
+
+> 131 priority functions
+
+**Decompiled:** 131/131
+
+## `<package>`
+
+_131 methods decompiled._
+
+| Addr | Function | Decompile file |
+|---|---|---|
+| `0x102629530` | `google3/third_party/jetski/cli/store/store.init` | [`102629530_init.c`](dec/102629530_init.c) |
+| `0x10262c2a0` | `google3/third_party/jetski/cli/store/store.unknownAgentError` | [`10262c2a0_unknownAgentError.c`](dec/10262c2a0_unknownAgentError.c) |
+| `0x102630ce0` | `google3/third_party/jetski/cli/store/store.IsAgentCommandStep` | [`102630ce0_IsAgentCommandStep.c`](dec/102630ce0_IsAgentCommandStep.c) |
+| `0x102630db0` | `google3/third_party/jetski/cli/store/store.IsBackgroundTaskStep` | [`102630db0_IsBackgroundTaskStep.c`](dec/102630db0_IsBackgroundTaskStep.c) |
+| `0x102630e20` | `google3/third_party/jetski/cli/store/store.LiveAgentTaskSteps` | [`102630e20_LiveAgentTaskSteps.c`](dec/102630e20_LiveAgentTaskSteps.c) |
+| `0x102630f20` | `google3/third_party/jetski/cli/store/store.forEachActiveBackgroundTask` | [`102630f20_forEachActiveBackgroundTask.c`](dec/102630f20_forEachActiveBackgroundTask.c) |
+| `0x102630ff0` | `google3/third_party/jetski/cli/store/store.ActiveAgentTaskStepIndices` | [`102630ff0_ActiveAgentTaskStepIndices.c`](dec/102630ff0_ActiveAgentTaskStepIndices.c) |
+| `0x1026317d0` | `google3/third_party/jetski/cli/store/store.deriveSideQuestionError` | [`1026317d0_deriveSideQuestionError.c`](dec/1026317d0_deriveSideQuestionError.c) |
+| `0x1026350b0` | `google3/third_party/jetski/cli/store/store.isValidUnifiedRule` | [`1026350b0_isValidUnifiedRule.c`](dec/1026350b0_isValidUnifiedRule.c) |
+| `0x10263ad50` | `google3/third_party/jetski/cli/store/store.UserSettingsFor` | [`10263ad50_UserSettingsFor.c`](dec/10263ad50_UserSettingsFor.c) |
+| `0x10263b160` | `google3/third_party/jetski/cli/store/store.ApplyUserSettings` | [`10263b160_ApplyUserSettings.c`](dec/10263b160_ApplyUserSettings.c) |
+| `0x10263bdd0` | `google3/third_party/jetski/cli/store/store.tmuxLoadBuffer` | [`10263bdd0_tmuxLoadBuffer.c`](dec/10263bdd0_tmuxLoadBuffer.c) |
+| `0x10263c0c0` | `google3/third_party/jetski/cli/store/store.nativeCopy` | [`10263c0c0_nativeCopy.c`](dec/10263c0c0_nativeCopy.c) |
+| `0x10263dfe0` | `google3/third_party/jetski/cli/store/store.AutoCompactOverride` | [`10263dfe0_AutoCompactOverride.c`](dec/10263dfe0_AutoCompactOverride.c) |
+| `0x10263e5e0` | `google3/third_party/jetski/cli/store/store.NormalizeGroupName` | [`10263e5e0_NormalizeGroupName.c`](dec/10263e5e0_NormalizeGroupName.c) |
+| `0x102643200` | `google3/third_party/jetski/cli/store/store.reconcileSendingMessages` | [`102643200_reconcileSendingMessages.c`](dec/102643200_reconcileSendingMessages.c) |
+| `0x102645ff0` | `google3/third_party/jetski/cli/store/store.isFirstTokenStep` | [`102645ff0_isFirstTokenStep.c`](dec/102645ff0_isFirstTokenStep.c) |
+| `0x10264a8f0` | `google3/third_party/jetski/cli/store/store.findLastToolGroupAbsIdx` | [`10264a8f0_findLastToolGroupAbsIdx.c`](dec/10264a8f0_findLastToolGroupAbsIdx.c) |
+| `0x10264b690` | `google3/third_party/jetski/cli/store/store.ComputeRebuiltIndices` | [`10264b690_ComputeRebuiltIndices.c`](dec/10264b690_ComputeRebuiltIndices.c) |
+| `0x10264bd60` | `google3/third_party/jetski/cli/store/store.lastToolStepInGroup` | [`10264bd60_lastToolStepInGroup.c`](dec/10264bd60_lastToolStepInGroup.c) |
+| `0x10264be50` | `google3/third_party/jetski/cli/store/store.isThoughtOnlyGroup` | [`10264be50_isThoughtOnlyGroup.c`](dec/10264be50_isThoughtOnlyGroup.c) |
+| `0x10264c070` | `google3/third_party/jetski/cli/store/store.canUpgradeTrailingThoughtToToolGroup` | [`10264c070_canUpgradeTrailingThoughtToToolGroup.c`](dec/10264c070_canUpgradeTrailingThoughtToToolGroup.c) |
+| `0x10264c190` | `google3/third_party/jetski/cli/store/store.canMergeConsecutiveThoughts` | [`10264c190_canMergeConsecutiveThoughts.c`](dec/10264c190_canMergeConsecutiveThoughts.c) |
+| `0x10264c340` | `google3/third_party/jetski/cli/store/store.groupSteps` | [`10264c340_groupSteps.c`](dec/10264c340_groupSteps.c) |
+| `0x10264e050` | `google3/third_party/jetski/cli/store/store.isDeniedInteraction` | [`10264e050_isDeniedInteraction.c`](dec/10264e050_isDeniedInteraction.c) |
+| `0x10264e140` | `google3/third_party/jetski/cli/store/store.denialsFromTrajectory` | [`10264e140_denialsFromTrajectory.c`](dec/10264e140_denialsFromTrajectory.c) |
+| `0x10264f8d0` | `google3/third_party/jetski/cli/store/store.GlobalPermissionGrantsFor` | [`10264f8d0_GlobalPermissionGrantsFor.c`](dec/10264f8d0_GlobalPermissionGrantsFor.c) |
+| `0x102650e10` | `google3/third_party/jetski/cli/store/store.PermissionGrantsFor` | [`102650e10_PermissionGrantsFor.c`](dec/102650e10_PermissionGrantsFor.c) |
+| `0x102655860` | `google3/third_party/jetski/cli/store/store.getPermissionIndices` | [`102655860_getPermissionIndices.c`](dec/102655860_getPermissionIndices.c) |
+| `0x1026558f0` | `google3/third_party/jetski/cli/store/store.scanStep` | [`1026558f0_scanStep.c`](dec/1026558f0_scanStep.c) |
+| `0x102656050` | `google3/third_party/jetski/cli/store/store.toItems` | [`102656050_toItems.c`](dec/102656050_toItems.c) |
+| `0x102658d40` | `google3/third_party/jetski/cli/store/store.isFileInsideWorkspace` | [`102658d40_isFileInsideWorkspace.c`](dec/102658d40_isFileInsideWorkspace.c) |
+| `0x102659770` | `google3/third_party/jetski/cli/store/store.NewManager` | [`102659770_NewManager.c`](dec/102659770_NewManager.c) |
+| `0x102661bf0` | `google3/third_party/jetski/cli/store/store.specBelongsToPlugin` | [`102661bf0_specBelongsToPlugin.c`](dec/102661bf0_specBelongsToPlugin.c) |
+| `0x102662090` | `google3/third_party/jetski/cli/store/store.splitTextAndMentions` | [`102662090_splitTextAndMentions.c`](dec/102662090_splitTextAndMentions.c) |
+| `0x102662bc0` | `google3/third_party/jetski/cli/store/store.isPathChar` | [`102662bc0_isPathChar.c`](dec/102662bc0_isPathChar.c) |
+| `0x102662cc0` | `google3/third_party/jetski/cli/store/store.isWordChar` | [`102662cc0_isWordChar.c`](dec/102662cc0_isWordChar.c) |
+| `0x1026640d0` | `google3/third_party/jetski/cli/store/store.availableModelsHint` | [`1026640d0_availableModelsHint.c`](dec/1026640d0_availableModelsHint.c) |
+| `0x102665370` | `google3/third_party/jetski/cli/store/store.showableNux` | [`102665370_showableNux.c`](dec/102665370_showableNux.c) |
+| `0x102665450` | `google3/third_party/jetski/cli/store/store.pendingNuxes` | [`102665450_pendingNuxes.c`](dec/102665450_pendingNuxes.c) |
+| `0x102666070` | `google3/third_party/jetski/cli/store/store.readNuxFile` | [`102666070_readNuxFile.c`](dec/102666070_readNuxFile.c) |
+| `0x10266a350` | `google3/third_party/jetski/cli/store/store.addToList` | [`10266a350_addToList.c`](dec/10266a350_addToList.c) |
+| `0x10266ac20` | `google3/third_party/jetski/cli/store/store.removeFromList` | [`10266ac20_removeFromList.c`](dec/10266ac20_removeFromList.c) |
+| `0x10266b200` | `google3/third_party/jetski/cli/store/store.BuildUnsandboxedPermissionsWarning` | [`10266b200_BuildUnsandboxedPermissionsWarning.c`](dec/10266b200_BuildUnsandboxedPermissionsWarning.c) |
+| `0x10266be30` | `google3/third_party/jetski/cli/store/store.FetchCLIFeatureProvider` | [`10266be30_FetchCLIFeatureProvider.c`](dec/10266be30_FetchCLIFeatureProvider.c) |
+| `0x10266c840` | `google3/third_party/jetski/cli/store/store.featureProvider` | [`10266c840_featureProvider.c`](dec/10266c840_featureProvider.c) |
+| `0x10266c930` | `google3/third_party/jetski/cli/store/store.thirdPartyMarketplaces` | [`10266c930_thirdPartyMarketplaces.c`](dec/10266c930_thirdPartyMarketplaces.c) |
+| `0x10266ca10` | `google3/third_party/jetski/cli/store/store.pluginCommandAvailable` | [`10266ca10_pluginCommandAvailable.c`](dec/10266ca10_pluginCommandAvailable.c) |
+| `0x10266cfd0` | `google3/third_party/jetski/cli/store/store.isInstalled` | [`10266cfd0_isInstalled.c`](dec/10266cfd0_isInstalled.c) |
+| `0x10266e5e0` | `google3/third_party/jetski/cli/store/store.enrichInstalledFromCatalog` | [`10266e5e0_enrichInstalledFromCatalog.c`](dec/10266e5e0_enrichInstalledFromCatalog.c) |
+| `0x10266ea60` | `google3/third_party/jetski/cli/store/store.listManagedPlugins` | [`10266ea60_listManagedPlugins.c`](dec/10266ea60_listManagedPlugins.c) |
+| `0x10266ec50` | `google3/third_party/jetski/cli/store/store.pluginSummaryFor` | [`10266ec50_pluginSummaryFor.c`](dec/10266ec50_pluginSummaryFor.c) |
+| `0x10266f1d0` | `google3/third_party/jetski/cli/store/store.agentNames` | [`10266f1d0_agentNames.c`](dec/10266f1d0_agentNames.c) |
+| `0x10266f3a0` | `google3/third_party/jetski/cli/store/store.agentNameFromPath` | [`10266f3a0_agentNameFromPath.c`](dec/10266f3a0_agentNameFromPath.c) |
+| `0x10266f4a0` | `google3/third_party/jetski/cli/store/store.ruleNames` | [`10266f4a0_ruleNames.c`](dec/10266f4a0_ruleNames.c) |
+| `0x10266f610` | `google3/third_party/jetski/cli/store/store.builtinPluginsRoot` | [`10266f610_builtinPluginsRoot.c`](dec/10266f610_builtinPluginsRoot.c) |
+| `0x10266f670` | `google3/third_party/jetski/cli/store/store.isUnder` | [`10266f670_isUnder.c`](dec/10266f670_isUnder.c) |
+| `0x102671200` | `google3/third_party/jetski/cli/store/store.normalizePluginTarget` | [`102671200_normalizePluginTarget.c`](dec/102671200_normalizePluginTarget.c) |
+| `0x102671310` | `google3/third_party/jetski/cli/store/store.FindInstalledPlugin` | [`102671310_FindInstalledPlugin.c`](dec/102671310_FindInstalledPlugin.c) |
+| `0x102671500` | `google3/third_party/jetski/cli/store/store.marketplaceEntryMatches` | [`102671500_marketplaceEntryMatches.c`](dec/102671500_marketplaceEntryMatches.c) |
+| `0x102671590` | `google3/third_party/jetski/cli/store/store.FindMarketplacePlugin` | [`102671590_FindMarketplacePlugin.c`](dec/102671590_FindMarketplacePlugin.c) |
+| `0x102671660` | `google3/third_party/jetski/cli/store/store.PluginAlreadyInstalled` | [`102671660_PluginAlreadyInstalled.c`](dec/102671660_PluginAlreadyInstalled.c) |
+| `0x102671770` | `google3/third_party/jetski/cli/store/store.ResolvePluginPath` | [`102671770_ResolvePluginPath.c`](dec/102671770_ResolvePluginPath.c) |
+| `0x102671a20` | `google3/third_party/jetski/cli/store/store.LocalPluginDir` | [`102671a20_LocalPluginDir.c`](dec/102671a20_LocalPluginDir.c) |
+| `0x102671ac0` | `google3/third_party/jetski/cli/store/store.InspectLocalPluginDir` | [`102671ac0_InspectLocalPluginDir.c`](dec/102671ac0_InspectLocalPluginDir.c) |
+| `0x102671f60` | `google3/third_party/jetski/cli/store/store.stripPathQuotes` | [`102671f60_stripPathQuotes.c`](dec/102671f60_stripPathQuotes.c) |
+| `0x102672000` | `google3/third_party/jetski/cli/store/store.IsPathLikePrefix` | [`102672000_IsPathLikePrefix.c`](dec/102672000_IsPathLikePrefix.c) |
+| `0x102672220` | `google3/third_party/jetski/cli/store/store.matchedPrefixLen` | [`102672220_matchedPrefixLen.c`](dec/102672220_matchedPrefixLen.c) |
+| `0x102672360` | `google3/third_party/jetski/cli/store/store.CompleteLocalPluginPath` | [`102672360_CompleteLocalPluginPath.c`](dec/102672360_CompleteLocalPluginPath.c) |
+| `0x102672a30` | `google3/third_party/jetski/cli/store/store.installExternalMarketplacePlugin` | [`102672a30_installExternalMarketplacePlugin.c`](dec/102672a30_installExternalMarketplacePlugin.c) |
+| `0x102672b60` | `google3/third_party/jetski/cli/store/store.externalMarketplaceIndex` | [`102672b60_externalMarketplaceIndex.c`](dec/102672b60_externalMarketplaceIndex.c) |
+| `0x102672d10` | `google3/third_party/jetski/cli/store/store.fetchExternalMarketplacePlugins` | [`102672d10_fetchExternalMarketplacePlugins.c`](dec/102672d10_fetchExternalMarketplacePlugins.c) |
+| `0x102673130` | `google3/third_party/jetski/cli/store/store.isMarketplaceEntryID` | [`102673130_isMarketplaceEntryID.c`](dec/102673130_isMarketplaceEntryID.c) |
+| `0x102673220` | `google3/third_party/jetski/cli/store/store.installExternalMarketplacePluginImpl` | [`102673220_installExternalMarketplacePluginImpl.c`](dec/102673220_installExternalMarketplacePluginImpl.c) |
+| `0x102673bc0` | `google3/third_party/jetski/cli/store/store.isSafeInstallDirName` | [`102673bc0_isSafeInstallDirName.c`](dec/102673bc0_isSafeInstallDirName.c) |
+| `0x102673c60` | `google3/third_party/jetski/cli/store/store.checkInstallDirFree` | [`102673c60_checkInstallDirFree.c`](dec/102673c60_checkInstallDirFree.c) |
+| `0x102673eb0` | `google3/third_party/jetski/cli/store/store.installedFromEntry` | [`102673eb0_installedFromEntry.c`](dec/102673eb0_installedFromEntry.c) |
+| `0x1026740b0` | `google3/third_party/jetski/cli/store/store.marketplacePluginComponentsImpl` | [`1026740b0_marketplacePluginComponentsImpl.c`](dec/1026740b0_marketplacePluginComponentsImpl.c) |
+| `0x102674330` | `google3/third_party/jetski/cli/store/store.pluginComponentKinds` | [`102674330_pluginComponentKinds.c`](dec/102674330_pluginComponentKinds.c) |
+| `0x102674630` | `google3/third_party/jetski/cli/store/store.installMarketplacePluginFromCLI` | [`102674630_installMarketplacePluginFromCLI.c`](dec/102674630_installMarketplacePluginFromCLI.c) |
+| `0x102674ed0` | `google3/third_party/jetski/cli/store/store.fetchAgentMarketplacePluginsImpl` | [`102674ed0_fetchAgentMarketplacePluginsImpl.c`](dec/102674ed0_fetchAgentMarketplacePluginsImpl.c) |
+| `0x102675240` | `google3/third_party/jetski/cli/store/store.classifyInstalledPlugin` | [`102675240_classifyInstalledPlugin.c`](dec/102675240_classifyInstalledPlugin.c) |
+| `0x102675bf0` | `google3/third_party/jetski/cli/store/store.RecordPluginAction` | [`102675bf0_RecordPluginAction.c`](dec/102675bf0_RecordPluginAction.c) |
+| `0x1026772d0` | `google3/third_party/jetski/cli/store/store.expandedCommands` | [`1026772d0_expandedCommands.c`](dec/1026772d0_expandedCommands.c) |
+| `0x102678290` | `google3/third_party/jetski/cli/store/store.allNonTaskStepsPrinted` | [`102678290_allNonTaskStepsPrinted.c`](dec/102678290_allNonTaskStepsPrinted.c) |
+| `0x1026783e0` | `google3/third_party/jetski/cli/store/store.storePlannerText` | [`1026783e0_storePlannerText.c`](dec/1026783e0_storePlannerText.c) |
+| `0x1026785d0` | `google3/third_party/jetski/cli/store/store.StripThoughts` | [`1026785d0_StripThoughts.c`](dec/1026785d0_StripThoughts.c) |
+| `0x1026786d0` | `google3/third_party/jetski/cli/store/store.sampleProactiveTargetTurn` | [`1026786d0_sampleProactiveTargetTurn.c`](dec/1026786d0_sampleProactiveTargetTurn.c) |
+| `0x10267b9d0` | `google3/third_party/jetski/cli/store/store.isReservedCommandName` | [`10267b9d0_isReservedCommandName.c`](dec/10267b9d0_isReservedCommandName.c) |
+| `0x10267d2a0` | `google3/third_party/jetski/cli/store/store.skillsReloadSummary` | [`10267d2a0_skillsReloadSummary.c`](dec/10267d2a0_skillsReloadSummary.c) |
+| `0x10267dd80` | `google3/third_party/jetski/cli/store/store.BuildStatusLineData` | [`10267dd80_BuildStatusLineData.c`](dec/10267dd80_BuildStatusLineData.c) |
+| `0x10267efd0` | `google3/third_party/jetski/cli/store/store.detectVCSOnDisk` | [`10267efd0_detectVCSOnDisk.c`](dec/10267efd0_detectVCSOnDisk.c) |
+| `0x10267f180` | `google3/third_party/jetski/cli/store/store.ModelEffortDisplay` | [`10267f180_ModelEffortDisplay.c`](dec/10267f180_ModelEffortDisplay.c) |
+| `0x10267f380` | `google3/third_party/jetski/cli/store/store.stripEffortSuffix` | [`10267f380_stripEffortSuffix.c`](dec/10267f380_stripEffortSuffix.c) |
+| `0x1026814e0` | `google3/third_party/jetski/cli/store/store.expandTilde` | [`1026814e0_expandTilde.c`](dec/1026814e0_expandTilde.c) |
+| `0x1026815c0` | `google3/third_party/jetski/cli/store/store.cleanAndTruncateError` | [`1026815c0_cleanAndTruncateError.c`](dec/1026815c0_cleanAndTruncateError.c) |
+| `0x1026823d0` | `google3/third_party/jetski/cli/store/store.NewStore` | [`1026823d0_NewStore.c`](dec/1026823d0_NewStore.c) |
+| `0x102682f50` | `google3/third_party/jetski/cli/store/store.Deserialize` | [`102682f50_Deserialize.c`](dec/102682f50_Deserialize.c) |
+| `0x102687760` | `google3/third_party/jetski/cli/store/store.deriveTriggerInput` | [`102687760_deriveTriggerInput.c`](dec/102687760_deriveTriggerInput.c) |
+| `0x10268adc0` | `google3/third_party/jetski/cli/store/store.skillSlashCommandScopeItem` | [`10268adc0_skillSlashCommandScopeItem.c`](dec/10268adc0_skillSlashCommandScopeItem.c) |
+| `0x10268afd0` | `google3/third_party/jetski/cli/store/store.splitSlashToken` | [`10268afd0_splitSlashToken.c`](dec/10268afd0_splitSlashToken.c) |
+| `0x10268b190` | `google3/third_party/jetski/cli/store/store.LeadingSlashCommandName` | [`10268b190_LeadingSlashCommandName.c`](dec/10268b190_LeadingSlashCommandName.c) |
+| `0x10268dce0` | `google3/third_party/jetski/cli/store/store.resolveShell` | [`10268dce0_resolveShell.c`](dec/10268dce0_resolveShell.c) |
+| `0x10268de10` | `google3/third_party/jetski/cli/store/store.detectOSC8Support` | [`10268de10_detectOSC8Support.c`](dec/10268de10_detectOSC8Support.c) |
+| `0x10268e030` | `google3/third_party/jetski/cli/store/store.isLocalAppleTerminal` | [`10268e030_isLocalAppleTerminal.c`](dec/10268e030_isLocalAppleTerminal.c) |
+| `0x10268e200` | `google3/third_party/jetski/cli/store/store.queryTmuxTermFeatures` | [`10268e200_queryTmuxTermFeatures.c`](dec/10268e200_queryTmuxTermFeatures.c) |
+| `0x10268e320` | `google3/third_party/jetski/cli/store/store.tmuxSupportsHyperlinks` | [`10268e320_tmuxSupportsHyperlinks.c`](dec/10268e320_tmuxSupportsHyperlinks.c) |
+| `0x10268e480` | `google3/third_party/jetski/cli/store/store.getTerminalName` | [`10268e480_getTerminalName.c`](dec/10268e480_getTerminalName.c) |
+| `0x10268e5c0` | `google3/third_party/jetski/cli/store/store.detectOSC52Support` | [`10268e5c0_detectOSC52Support.c`](dec/10268e5c0_detectOSC52Support.c) |
+| `0x10268e7e0` | `google3/third_party/jetski/cli/store/store.detectRemoteSession` | [`10268e7e0_detectRemoteSession.c`](dec/10268e7e0_detectRemoteSession.c) |
+| `0x10268e860` | `google3/third_party/jetski/cli/store/store.detectTermSupportsAltScreen` | [`10268e860_detectTermSupportsAltScreen.c`](dec/10268e860_detectTermSupportsAltScreen.c) |
+| `0x10268edf0` | `google3/third_party/jetski/cli/store/store.detectInitialOSC8Support` | [`10268edf0_detectInitialOSC8Support.c`](dec/10268edf0_detectInitialOSC8Support.c) |
+| `0x10268eee0` | `google3/third_party/jetski/cli/store/store.queryAppleTerminalDA2` | [`10268eee0_queryAppleTerminalDA2.c`](dec/10268eee0_queryAppleTerminalDA2.c) |
+| `0x10268f1e0` | `google3/third_party/jetski/cli/store/store.readAppleTerminalDA2` | [`10268f1e0_readAppleTerminalDA2.c`](dec/10268f1e0_readAppleTerminalDA2.c) |
+| `0x10268f670` | `google3/third_party/jetski/cli/store/store.cutAtRuneBoundary` | [`10268f670_cutAtRuneBoundary.c`](dec/10268f670_cutAtRuneBoundary.c) |
+| `0x102690a40` | `google3/third_party/jetski/cli/store/store.pruneCoveredEntries` | [`102690a40_pruneCoveredEntries.c`](dec/102690a40_pruneCoveredEntries.c) |
+| `0x102693260` | `google3/third_party/jetski/cli/store/store.softDenialFromStep` | [`102693260_softDenialFromStep.c`](dec/102693260_softDenialFromStep.c) |
+| `0x102694150` | `google3/third_party/jetski/cli/store/store.toolNameFromStep` | [`102694150_toolNameFromStep.c`](dec/102694150_toolNameFromStep.c) |
+| `0x102694870` | `google3/third_party/jetski/cli/store/store.snakeToTitle` | [`102694870_snakeToTitle.c`](dec/102694870_snakeToTitle.c) |
+| `0x102694a40` | `google3/third_party/jetski/cli/store/store.ToolArgsFromPermission` | [`102694a40_ToolArgsFromPermission.c`](dec/102694a40_ToolArgsFromPermission.c) |
+| `0x102694c90` | `google3/third_party/jetski/cli/store/store.toolArgsFromStepContent` | [`102694c90_toolArgsFromStepContent.c`](dec/102694c90_toolArgsFromStepContent.c) |
+| `0x102695450` | `google3/third_party/jetski/cli/store/store.canAutoApproveWrite` | [`102695450_canAutoApproveWrite.c`](dec/102695450_canAutoApproveWrite.c) |
+| `0x102695580` | `google3/third_party/jetski/cli/store/store.isCreateFileStep` | [`102695580_isCreateFileStep.c`](dec/102695580_isCreateFileStep.c) |
+| `0x102695fa0` | `google3/third_party/jetski/cli/store/store.lastStepShowsError` | [`102695fa0_lastStepShowsError.c`](dec/102695fa0_lastStepShowsError.c) |
+| `0x1026966e0` | `google3/third_party/jetski/cli/store/store.validHints` | [`1026966e0_validHints.c`](dec/1026966e0_validHints.c) |
+| `0x102696820` | `google3/third_party/jetski/cli/store/store.validateTransition` | [`102696820_validateTransition.c`](dec/102696820_validateTransition.c) |
+| `0x1026969b0` | `google3/third_party/jetski/cli/store/store.derivePhase` | [`1026969b0_derivePhase.c`](dec/1026969b0_derivePhase.c) |
+| `0x102696bf0` | `google3/third_party/jetski/cli/store/store.deriveHints` | [`102696bf0_deriveHints.c`](dec/102696bf0_deriveHints.c) |
+| `0x102696cc0` | `google3/third_party/jetski/cli/store/store.latestUserFacingError` | [`102696cc0_latestUserFacingError.c`](dec/102696cc0_latestUserFacingError.c) |
+| `0x102696de0` | `google3/third_party/jetski/cli/store/store.userFacingError` | [`102696de0_userFacingError.c`](dec/102696de0_userFacingError.c) |
+| `0x102699970` | `google3/third_party/jetski/cli/store/store.hasWorkspaceDir` | [`102699970_hasWorkspaceDir.c`](dec/102699970_hasWorkspaceDir.c) |
+

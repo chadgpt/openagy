@@ -1,0 +1,80 @@
+0x103090342 [2] 0x1018a54c0  google3/third_party/jetski/language_server/code_assist_client/codeassistclient.flagValueToString
+    '%v'
+0x103090342 [2] 0x1018b4670  google3/third_party/jetski/language_server/code_assist_client/codeassistclient.convertValueToStructValue
+    '%v'
+0x103090342 [2] 0x10262f840  google3/third_party/jetski/cli/store/store.(*Manager).StartOAuthProcess
+    '%v'
+0x103090342 [2] 0x10262fcf0  google3/third_party/jetski/cli/store/store.(*Manager).StartGCPAuthProcess
+    '%v'
+0x103090344 [2] 0x1018bf240  google3/third_party/jetski/language_server/code_assist_client/codeassistclient.printDebugInfoFields
+    '%s'
+0x103090344 [2] 0x10266bbd0  google3/third_party/jetski/cli/store/store.(*Manager).WarnUnsandboxedPermissions
+    '%s'
+0x10309034a [2] 0x1018bf870  google3/third_party/jetski/language_server/code_assist_client/codeassistclient.printDebugInfo
+    ', '
+0x10309034a [2] 0x1023c1170  google3/third_party/jetski/cli/backend/backend.availableEfforts
+    ', '
+0x10309034a [2] 0x1023c1310  google3/third_party/jetski/cli/backend/backend.ResolveEffort
+    ', '
+0x10309034a [2] 0x1023c4d30  google3/third_party/jetski/cli/backend/backend.buildCustomModelDescription
+    ', '
+0x10309034a [2] 0x10262c2a0  google3/third_party/jetski/cli/store/store.unknownAgentError
+    ', '
+0x10309034a [2] 0x1026e2700  google3/third_party/jetski/cli/commands/commands.runPluginList
+    ', '
+0x10309034a [2] 0x1026e6420  google3/third_party/jetski/cli/commands/commands.(*effortCommand).Execute.func1
+    ', '
+0x10309034a [2] 0x1028aea30  google3/third_party/jetski/cli/printmode/printmode.helpName
+    ', '
+0x10309034a [2] 0x1028b6fe0  google3/third_party/jetski/cli/printmode/printmode.headlessDenialNotice
+    ', '
+0x10309034a [2] 0x1028b76d0  google3/third_party/jetski/cli/printmode/printmode.quoteJoin
+    ', '
+0x103090350 [2] 0x102672360  google3/third_party/jetski/cli/store/store.CompleteLocalPluginPath
+    '/\\'
+0x103090350 [2] 0x102673bc0  google3/third_party/jetski/cli/store/store.isSafeInstallDirName
+    '/\\'
+0x103090350 [2] 0x1026e2bf0  google3/third_party/jetski/cli/commands/commands.pathLikeHint
+    '/\\'
+0x103090356 [2] 0x1018df7a0  google3/third_party/jetski/language_server/code_assist_client/codeassistclient.newFastpushTransport.func1
+    ']:'
+0x103090388 [2] 0x102694c90  google3/third_party/jetski/cli/store/store.toolArgsFromStepContent
+    ': '
+0x103090388 [2] 0x1026e2700  google3/third_party/jetski/cli/commands/commands.runPluginList
+    ': '
+0x1030903a6 [2] 0x1023c1ef0  google3/third_party/jetski/cli/backend/backend.(*AuthStatus).EligibilityError
+    ':\n'
+0x1030903f4 [2] 0x102680710  google3/third_party/jetski/cli/store/store.(*StatusLineRunner).run
+    'sh'
+0x103090420 [2] 0x102651dc0  google3/third_party/jetski/cli/store/store.(*Manager).userInputLoop
+    '%d'
+0x103090420 [2] 0x1028abbe0  google3/third_party/jetski/cli/printmode/printmode.bucketRemaining
+    '%d'
+0x103090420 [2] 0x1028acd00  google3/third_party/jetski/cli/printmode/printmode.creditsReport
+    '%d'
+0x103090438 [2] 0x1018a21b0  google3/third_party/jetski/language_server/code_assist_client/codeassistclient.getAICodeURL
+    'v1'
+0x103090444 [2] 0x1018d9cd0  google3/third_party/jetski/language_server/code_assist_client/codeassistclient.init.func3
+    'ip'
+0x103090446 [2] 0x1018a5350  google3/third_party/jetski/language_server/code_assist_client/codeassistclient.extractAGYFlags
+    '__'
+0x10309044a [2] 0x1018be410  google3/third_party/jetski/language_server/code_assist_client/codeassistclient.UserAgent
+    '; '
+0x10309044a [2] 0x102637d50  google3/third_party/jetski/cli/store/store.(*Manager).validateCliSettings
+    '; '
+0x10309044e [2] 0x1026826f0  google3/third_party/jetski/cli/store/store.Store.Serialize
+    'id'
+0x10309044e [2] 0x102682f50  google3/third_party/jetski/cli/store/store.Deserialize
+    'id'
+0x103090454 [2] 0x10263bb20  google3/third_party/jetski/cli/store/store.OSC52Clipboard.WriteAll
+    '\x1b\x1b'
+0x103090456 [2] 0x10263bb20  google3/third_party/jetski/cli/store/store.OSC52Clipboard.WriteAll
+    '\x1b\\'
+0x10309045c [2] 0x102651dc0  google3/third_party/jetski/cli/store/store.(*Manager).userInputLoop
+    '! '
+0x10309045c [2] 0x1026a0c90  google3/third_party/jetski/cli/store/store.(*Manager).userInputLoop.func5
+    '! '
+0x103090460 [2] 0x102671ac0  google3/third_party/jetski/cli/store/store.InspectLocalPluginDir
+    ' v'
+0x103090464 [2] 0x102673130  google3/third_party/jetski/cli/store/store.isMarketplaceEntryID
+    '\\:'
